@@ -2,10 +2,10 @@
   "name": "personal-api-mysql",
   "version": "1.0.0",
   "description": "My API for personal project with mysql",
-  "main": "source/server.ts",
+  "main": "source/index.ts",
   "scripts": {
-    "start": "node dist/server.js",
-    "dev": "nodemon source/server.ts",
+    "start": "node dist/index.js",
+    "dev": "nodemon source/index.ts",
     "build": "rm -rf dist/ && tsc"
   },
   "repository": {

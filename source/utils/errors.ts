@@ -28,7 +28,7 @@ export class ValidationError extends CustomError {
 
 	private getErrors(v?: any) {
 		let obj: any = {};
-		for (let k in v) obj[k] = v[k].message;
+		for (let k in v) obj[v[k]['path']] = v[k].message;
 		this.errors = obj;
 	}
 }

@@ -5,11 +5,12 @@ export interface IController {
 	router: Router;
 }
 
-export interface IReturnService {
+export interface IReturnService<T> {
 	statusCode: number;
-	result?: any;
-	error?: any;
 	message: string;
+	count?: number;
+	result?: T;
+	error?: any;
 }
 
 export interface ICronJob {
