@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/smartoryu/playground-personal-api-mysql#readme",
   "dependencies": {
+    "@notionhq/client": "^1.0.4",
     "bcrypt": "^5.0.1",
     "colors": "^1.4.0",
     "dotenv": "^16.0.0",
